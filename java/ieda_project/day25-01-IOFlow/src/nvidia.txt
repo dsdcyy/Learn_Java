@@ -1,0 +1,119 @@
+https://wiki.archlinux.org/title/NVIDIA_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+https://wiki.archlinux.org/title/NVIDIA_Optimus_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E6%98%BE%E7%A4%BA%E7%AE%A1%E7%90%86%E5%99%A8
+
+
+##############################################################################################################################
+1:
+
+#lspci -k | grep -A 2 -E "(VGA|3D)"
+##############################################################################################################################
+2:
+
+#vim /etc/modprobe.d/nvidia-blacklists-nouveau.conf
+
+blacklist nouveau
+blacklist lbm-nouveau
+options nouveau modeset=0
+alias nouveau off
+alias lbm-nouveau off
+
+
+sudo apt-get autoremove nvidia*
+sudo service lightdm stop
+#update-initramfs -u &&  reboot
+
+#lsmod | grep -i nouveau
+
+####################################################################################################################################
+3:
+
+#apt-get install  nvidia-driver nvidia-xconfig mesa-demos
+
+
+
+#nvidia-xconfig --query-gpu-info
+
+#vi /etc/X11/xorg.conf
+
+Section "ServerLayout"
+    Identifier "layout"
+    Screen 0 "nvidia"
+    Inactive "intel"
+EndSection
+
+Section "Device"
+    Identifier "nvidia"
+    Driver "nvidia"
+    BusID "PCI:1:0:0"
+EndSection
+
+Section "Screen"
+    Identifier "nvidia"
+    Device "nvidia"
+    Option "AllowEmptyInitialConfiguration"
+EndSection
+
+Section "Device"
+    Identifier "intel"
+    Driver "modesetting"
+EndSection
+
+Section "Screen"
+    Identifier "intel"
+    Device "intel"
+EndSection
+
+
+####################################################################################################################################
+4:
+
+
+LightDM
+
+为 LightDM 显示管理器创建/编辑脚本：
+
+/etc/lightdm/display_setup.sh
+
+#!/bin/sh
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
+然后赋予脚本可执行权限：
+
+# chmod +x /etc/lightdm/display_setup.sh
+
+通过编辑 /etc/lightdm/lightdm.conf 的 [Seat:*] 部分配置 LightDM 来运行这个脚本：
+
+# nano /etc/lightdm/lightdm.conf
+
+[Seat:*]
+display-setup-script=/etc/lightdm/display_setup.sh
+
+现在重启，然后显示管理器应该能启动了。
+SDDM
+
+为 SDDM 显示管理器创建/编辑脚本（SDDM 是 KDE 的默认显示管理器）：
+
+/usr/share/sddm/scripts/Xsetup
+
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
+GDM
+
+要为 GDM 创建启动脚本，请创建两个新的 .desktop 文件，如下：
+
+/usr/share/gdm/greeter/autostart/optimus.desktop
+/etc/xdg/autostart/optimus.desktop
+
+[Desktop Entry]
+Type=Application
+Name=Optimus
+Exec=sh -c "xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto"
+NoDisplay=true
+X-GNOME-Autostart-Phase=DisplayServer
+
+####################################################################################################################################
+
+
+#glxinfo | grep NVIDIA
