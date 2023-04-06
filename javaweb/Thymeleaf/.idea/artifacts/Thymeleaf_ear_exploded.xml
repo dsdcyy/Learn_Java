@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Thymeleaf:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Thymeleaf_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Thymeleaf/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

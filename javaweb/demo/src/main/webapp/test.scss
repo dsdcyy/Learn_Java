@@ -1,0 +1,21 @@
+@mixin cool-button($color,$bg) {
+  display: flex;
+  color: $color;
+  background: $bg;
+}
+
+$red: hsl(0, 100%, 50%);
+$while: hsl(110, 80%, 60%);
+$black: hsl(60, 100%, 50%);
+
+
+@include cool-button(black, $red)
+
+
+input:hover {
+  background-color: $while
+}
+
+
+
+

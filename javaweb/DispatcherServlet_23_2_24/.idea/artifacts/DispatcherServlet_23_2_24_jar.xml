@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DispatcherServlet_23_2_24:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DispatcherServlet_23_2_24_jar</output-path>
+    <root id="archive" name="DispatcherServlet_23_2_24.jar">
+      <element id="module-output" name="DispatcherServlet_23_2_24" />
+      <element id="library" level="project" name="thymeleaf_lib" />
+      <element id="javaee-facet-resources" facet="DispatcherServlet_23_2_24/web/Web" />
+    </root>
+  </artifact>
+</component>

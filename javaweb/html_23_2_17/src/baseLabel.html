@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>基本标签</title>
+        <style>
+            div{
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                position: absolute;
+            }
+            #div1{
+                background-color: aqua;
+            }
+            #div2{
+                background-color: beige;
+                left: 100px;
+                top: 100px;
+            ;
+            }
+            #div3{
+                background-color: yellow;
+                left: 100px;
+                top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>    上标 sub</p>
+        水分子化学式：H<sub>2</sub>O
+        <br/>
+        <p>下标 sup</p>
+        氧气化学式: O<sup>2</sup>
+        <p>   大于 '&lt'</p>
+        <p>2&gt1</p>
+        <p>小于 '&gt'</p>
+        <p>2&lt3</p>
+        <p>u 下划线 b 粗体 i 斜体</p>
+        <p>注册商标 &reg</p>
+        <p>版权符号 &copy</p>
+        <p>ol 有序 ul 无序</p>
+        <a href="https://www.baidu.com" target="_blank">a 超链接 href 链接地址 target 点击打开链接行为</a>
+        <br>
+
+        _self：当前浏览上下文。 （默认）
+        <br>
+        _blank：通常是一个新标签页，但用户可以将浏览器配置为打开一个新窗口。
+        <br>
+
+        _parent：当前浏览器的父浏览上下文。 如果没有父母，则表现为_self。
+        <br>
+
+        _top：最顶层的浏览上下文（“最高”上下文，是当前上下文的祖先）。 如果没有祖先，则表现为_self
+        <br>
+        <span>span 不换行的标签块</span>
+
+        <div id ='div1'>div1</div>
+        <div id = 'div2'>div2</div>
+        <div id = 'div3'>div3</div>
+        <table border="1" cellspacing="0" width="300" cellpadding="4">
+            <tr>
+                <th rowspan="2">1</th>
+                <th>2</th>
+            </tr>
+            <tr align="center">
+    <!--            <td>3</td>-->
+                <td>4</td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">5</td>
+    <!--            <td>6</td>-->
+            </tr>
+        </table>
+        <p>表格 table</p>
+        <p>行 tr</p>
+        <p>列 td</p>
+        <p>表头列 th</p>
+        table中有如下属性（虽然已经淘汰，但是最好了解一下）
+        <br/>
+        -border：表格边框的粗细
+        <br/>
+        Width:表格的宽度
+        <br/>
+        ellspacing：单元格间距
+        <br/>
+        cellpadding：单元格填充
+        <br/>
+        tr中有一个属性： align -> Center , left, right
+        <p>rowspan 行合并</p>
+        <p>colspan 列合并</p>
+        <form action="testformaction.html" method="post">
+            <label>
+                昵称:
+                <input type="text" name="nickName">
+            </label><br/>
+            <label>
+                密码:
+                <input type="password" name="pwd">
+            </label><br/>
+            性别:
+            <label>
+                男
+                <input type="radio" name="gender" value="male" checked>
+            </label>
+            <label>
+                女
+                <input type="radio" name="gender" value="female">
+            </label>
+            <br/>
+            爱好:
+            <label>
+                足球
+                <input type="checkbox" name="hobby" value="football" checked>
+            </label>
+
+            <label>
+                篮球
+                <input type="checkbox" name="hobby" value="basketball" checked>
+            </label>
+            <label>
+                地球
+                <input type="checkbox" name="hobby" value="earth" checked>
+            </label>
+            <br/>
+            <label>
+                星座：
+                <select>
+                    <option value="1">白羊座</option>
+                    <option value="2">狮子座</option>
+                    <option value="3">水瓶座</option>
+                    <option value="4">天平座</option>
+                </select>
+            </label>
+            <br/>
+            <label>
+                备注:
+                <textarea name="remark" rows="4" cols="50"></textarea>
+            </label><br/>
+            <input type="submit" value="注册">
+            <input type="reset" value="重置">
+        </form>
+        <p>checked 默认选中</p>
+    </body>
+</html>

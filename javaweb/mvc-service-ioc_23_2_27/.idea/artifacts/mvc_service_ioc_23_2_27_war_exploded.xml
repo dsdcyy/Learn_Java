@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mvc-service-ioc_23_2_27:war exploded">
+    <output-path>$APPLICATION_HOME_DIR$/bin/out/artifacts/mvc_service_ioc_23_2_27_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvc-service-ioc_23_2_27" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="thymeleaf_lib" />
+        </element>
+      </element>
+      <element id="library" level="application" name="apache-tomcat-9.0" />
+      <element id="library" level="application" name="thymeleaf_lib" />
+      <element id="javaee-facet-resources" facet="mvc-service-ioc_23_2_27/web/Web3" />
+      <element id="javaee-facet-resources" facet="mvc-service-ioc_23_2_27/web/Web" />
+      <element id="javaee-facet-resources" facet="mvc-service-ioc_23_2_27/web/Web2" />
+    </root>
+  </artifact>
+</component>

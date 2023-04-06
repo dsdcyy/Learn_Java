@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var vue = new Vue({
+                "el": "#div0",
+                data: {
+                    msg: "Hello"
+                },
+                methods:{
+                    changeMsg:function (){
+                        this.msg = "你好";
+                    }
+                },
+                // vue的声明周期
+
+                // vue对象创建之前
+                beforeCreate: function(){
+                    console.log("beforeCreate:vue对象创建之前");
+                    console.log("msg: " + this.msg);
+                },
+                // 创建之后
+                created:function (){
+                    console.log("created:vue对象创建之后");
+                    console.log("msg: " + this.msg);
+                },
+                // 数据转载之前
+                beforeMount:function (){
+                    console.log("beforeMount:vue对象数据装载之前");
+                    console.log("span: " + document.getElementById("span").innerText);
+                },
+                // 数据转载之后
+                mounted:function (){
+                    console.log("beforeMount:vue对象数据装载之后");
+                    console.log("span: " + document.getElementById("span").innerText);
+                },
+                beforeUpdate:function (){
+                    console.log("beforeUpdate:vue对象数据更新之前");
+                    console.log("msg: " + this.msg);
+                    console.log("span: " + document.getElementById("span").innerText);
+                },
+                updated:function (){
+                    console.log("updated:vue对象数据更新之后");
+                    console.log("msg: " + this.msg);
+                    console.log("span: " + document.getElementById("span").innerText);
+                },
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="div0">
+    <span id="span">{{msg}}</span>
+    <input type="button" value="改变msg的值" @click="changeMsg">
+</div>
+</body>
+
+</html>

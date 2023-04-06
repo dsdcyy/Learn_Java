@@ -1,0 +1,2 @@
+Manifest: 1.0  
+Main-Class: addJarPkg

@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ControllerServlet_23_2_25:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ControllerServlet_23_2_25_jar</output-path>
+    <root id="archive" name="ControllerServlet_23_2_25.jar">
+      <element id="module-output" name="ControllerServlet_23_2_25" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/thymeleaf-3.0.12.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/attoparser-2.0.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/unbescape-1.1.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/javassist-3.20.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/mysql-connector-j-8.0.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/log4j-1.2.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/ognl-3.1.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/src/thymeleaf_lib/slf4j-log4j12-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/ognl-3.1.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/mysql-connector-j-8.0.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/DispatcherServlet_23_2_24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ControllerServlet_23_2_25/out/artifacts/DispatcherServlet_23_2_24_Web_exploded/WEB-INF/lib/log4j-1.2.15.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
+      <element id="library" level="project" name="thymeleaf_lib" />
+      <element id="javaee-facet-resources" facet="ControllerServlet_23_2_25/javaeeApplication/javaEEApplication" />
+      <element id="javaee-facet-resources" facet="ControllerServlet_23_2_25/web/Web" />
+    </root>
+  </artifact>
+</component>

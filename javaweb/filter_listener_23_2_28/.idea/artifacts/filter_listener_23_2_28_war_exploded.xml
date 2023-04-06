@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="filter_listener_23_2_28:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/filter_listener_23_2_28_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="filter_listener_23_2_28" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="thymeleaf_lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="filter_listener_23_2_28/web/Web" />
+    </root>
+  </artifact>
+</component>

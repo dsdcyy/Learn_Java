@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var vue = new Vue({
+                "el": "#div0",
+                "data": {
+                    "fruitList": [
+                        {fname: "苹果", price: 10, remask: "苹果很好吃"},
+                        {fname: "香蕉", price: 10, remask: "香蕉很好吃"},
+                        {fname: "梨", price: 10, remask: "梨很好吃"},
+                        {fname: "葡萄", price: 10, remask: "葡萄很好吃"}
+                    ],
+                    "msg": "Hello",
+                    "postion": "0,0"
+
+                },
+                "methods": {
+                    myReverse: function () {
+                        this.msg = this.msg.split("").reverse().join("");
+                    },
+                    recordPostion: function (event) {
+                        this.postion = event.clientX + "," + event.clientY
+                    }
+                }
+
+
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="div0">
+    <span>{{msg}}</span>
+    <!--    v-on:click：表示绑定点击事件-->
+    <!--    v-on:可以省略 ，变成@-->
+    <!--    <input type="button" value="反转" v-on:click="myReverse">-->
+    <input type="button" value="反转" @click="myReverse">
+    <input type="button" :value="postion" @click="recordPostion">
+</div>
+</body>
+
+</html>

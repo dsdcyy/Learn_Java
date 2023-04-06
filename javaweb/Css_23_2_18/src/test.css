@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: red;
+}
+.p2 {
+    font-size: 20px;
+}
+#p3{
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: pink;
+}
+#d1{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}

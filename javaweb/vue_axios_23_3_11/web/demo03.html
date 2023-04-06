@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+</head>
+<body>
+    <div id="div0">
+        <input type="text" v-model="num">
+<!--        v-if和v-else之间不能加其它标签-->
+        <div v-if="num%2==1" style="width: 100px;height: 100px;background-color: red"></div>
+        <div v-else="num%2==1" style="width: 100px;height: 100px;background-color: green"></div>
+<!--   v-show     控制元素是否进行展示-->
+        <div v-show="num%2==1" style="width: 100px;height: 100px;background-color: green"></div>
+    </div>
+</body>
+<script>
+    window.onload = function(){
+        var vue = new Vue({
+            "el":"#div0",
+            data:{
+                msg: "Hello World! ......",
+                uname:"张三丰",
+                num:1
+            }
+
+        });
+    }
+</script>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: azure;
+        }
+
+        #tb1 {
+            border: 0px solid green;
+            width: 400px;
+            line-height: 40px;
+            margin-top: 5%;
+        }
+
+        #tb1 tr, #tb1 td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<table id="tb1">
+    <thead>
+    <tr>
+        <th>名称</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>小计</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>香蕉</td>
+        <td>10</td>
+        <td>100</td>
+        <td>1000</td>
+        <td>x</td>
+    </tr>
+    <tr>
+        <td>梨</td>
+        <td>30</td>
+        <td>60</td>
+        <td>1800</td>
+        <td>x</td>
+    </tr>
+    <tr>
+        <td>西瓜</td>
+        <td>15</td>
+        <td>200</td>
+        <td>3000</td>
+        <td>x</td>
+    </tr>
+    <tr>
+        <td>总计</td>
+        <td colspan="3">5800</td>
+    </tr>
+    </tbody>
+</table>
+<table id="tb2">
+    <tr>
+        <th><label>
+            名称:
+            <input type="text" id ="name"/>
+        </label></th>
+    </tr>
+    <tr>
+        <th><label>
+            单价:
+            <input type="text" id = "price"/>
+        </label></th>
+    </tr>
+    <tr>
+        <th><label>
+            数量:
+            <input type="text" id = "nums"/>
+        </label></th>
+    </tr>
+    <tr>
+        <th>
+            <button type="submit" value="添加" id="submit">添加</button>
+            <button type="reset" value="重置" id="reset">重置</button>
+        </th>
+    </tr>
+
+</table>
+
+</body>
+<script src="demo_02.js">
+</script>
+</html>

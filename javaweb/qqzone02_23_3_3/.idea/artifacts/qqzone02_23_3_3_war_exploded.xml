@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="qqzone02_23_3_3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/qqzone02_23_3_3_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="qqzone02_23_3_3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="thymeleaf_lib1" />
+          <element id="library" level="application" name="mysql-connector-j-8.0.31" />
+          <element id="library" level="application" name="commons-dbutils-1.4" />
+          <element id="library" level="application" name="druid-1.2.9" />
+          <element id="library" level="application" name="mchange-commons-java-0.2.15" />
+          <element id="library" level="application" name="myssm1.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="qqzone02_23_3_3/web/Web" />
+    </root>
+  </artifact>
+</component>

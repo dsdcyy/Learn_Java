@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mvc-controller_23_2_25:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mvc_controller_23_2_25_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvc-controller_23_2_25" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="thymeleaf_lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mvc-controller_23_2_25/web/Web" />
+    </root>
+  </artifact>
+</component>

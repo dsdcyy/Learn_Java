@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script src="script/axios.min.js"></script>
+    <script>
+        window.onload = function () {
+            var vue = new Vue({
+                "el": "#div0",
+                data: {
+                    uanme: "lina",
+                    pwd: "ok"
+                },
+                methods: {
+                    axios01: function () {
+                        // axios 表示发送一个异步请求
+                        // then 发送成功执行的函数
+                        // catch 发生缺错执行的函数
+                        axios({
+                            "method": "post", //请求方式
+                            "url": "http://localhost", //请求地址
+                            "params": {
+                                "uname": vue.uname, // 参数
+                                "userPwd": vue.pwd
+                            }
+                        }).then(function (response) {
+                        }.catch(function (error) {
+                        }));
+                    }
+                }
+
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="div0">
+    uname:<input type="text" :value="uanme" @click="">
+    pwd:<input type="text" :value="pwd" @click="">
+    pwd:<input type="button" value="发送" @click="axios01">
+</div>
+</body>
+
+</html>

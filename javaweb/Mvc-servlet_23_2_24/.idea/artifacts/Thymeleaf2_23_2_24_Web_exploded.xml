@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Thymeleaf2_23_2_24:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Thymeleaf2_23_2_24_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Thymeleaf2_23_2_24" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="Thymeleaf2_23_2_24:jar" />
+          <element id="library" level="project" name="thymeleaf_lib (2)" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Thymeleaf2_23_2_24/web/Web" />
+      <element id="javaee-facet-resources" facet="Thymeleaf2_23_2_24/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
