@@ -4,16 +4,18 @@ public class AnonymousInnerDetail {
         outer05.f1();
     }
 }
-class Person{
-    public void hi(){
+
+class Person {
+    public void hi() {
         System.out.println("Person hi()");
     }
 }
 
-class Outer05{
+class Outer05 {
     private int n1 = 99;
-    public void f1(){
-        Person p = new Person(){
+
+    public void f1() {
+        Person p = new Person() {
             @Override
             public void hi() {
                 System.out.println("匿名内部类重写了hi()方法");
@@ -21,7 +23,7 @@ class Outer05{
             }
         };
         p.hi();
-        new Person(){
+        new Person() {
             @Override
             public void hi() {
                 System.out.println("匿名内部类重写了hi()方法,haha!");

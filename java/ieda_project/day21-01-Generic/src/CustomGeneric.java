@@ -36,7 +36,7 @@ class Tiger<T,R> {
     public void setAge(R age) {
         this.age = age;
     }
-    // 因为静态方法是在类加载的时候就触发的，此时仍然确定泛型所属类型
+    // 因为静态方法是在类加载的时候就触发的，此时仍然不能确定泛型所属类型
 //    public static void m1(R r){
 //
 //    }

@@ -14,7 +14,7 @@ public class UDPSenderB {
         // 准备发送的数据
         byte[] buf = "UDPSenderB: hello,明天去吃火锅...".getBytes();
         // 将数据放入到datagramPacket对象内 字节数组 长度 目标ip地址(InetAddress)对象 对方端口
-        DatagramPacket datagramPacket = new DatagramPacket(buf, buf.length, InetAddress.getByName("192.168.0.105"), 9999);
+        DatagramPacket datagramPacket = new DatagramPacket(buf, buf.length, InetAddress.getByName("127.0.0.1"), 9999);
         // send 发送数据
         datagramSocket.send(datagramPacket);
         // 接收回复消息

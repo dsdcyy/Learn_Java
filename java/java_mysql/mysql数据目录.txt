@@ -1,0 +1,4 @@
+数据库目录：/var/lib/mysql/
+配置文件：/usr/share/mysql(mysql.server命令及配置文件)
+相关命令：/usr/bin(mysqladmin、mysqldump等命令)(*mysql的一种安全启动方式：/usr/bin/mysqld_safe –user=root &)
+启动脚本：/etc/rc.d/init.d/

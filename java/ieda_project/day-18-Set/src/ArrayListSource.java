@@ -6,7 +6,7 @@ import java.util.ArrayList;
  */
 public class ArrayListSource {
     public static void main(String[] args) {
-        ArrayList<Object> list = new ArrayList<>(8);
+        ArrayList<Object> list = new ArrayList<>(0);
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }

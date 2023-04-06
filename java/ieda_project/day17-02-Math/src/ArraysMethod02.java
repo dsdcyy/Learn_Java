@@ -21,6 +21,7 @@ public class ArraysMethod02 {
         System.out.println(Arrays.equals(arr,newArr));
         // asList 将一组值转换为list
         List<int[]> as_list = Arrays.asList(arr);
+        System.out.println(as_list);
 
 
 

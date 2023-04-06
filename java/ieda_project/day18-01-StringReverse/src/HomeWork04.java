@@ -26,7 +26,7 @@ public class HomeWork04 {
             } else if (value >= 'A' & value <= 'Z') {
                 System.out.println("大写字母: " + value);
                 upper++;
-            } else if (value >= '1' && value <= '9') {
+            } else if (value >= '0' && value <= '9') {
                 System.out.println("数字: " + value);
                 c++;
             } else {

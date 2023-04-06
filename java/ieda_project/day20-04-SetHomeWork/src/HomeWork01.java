@@ -25,13 +25,13 @@ public class HomeWork01 {
         list.add(new News("新闻二：男子突然想起2个月前钓的鱼还在网兜里，捞起一看赶紧放生"));
         list.add(new News("新闻二：男子突然想起2个月前钓的鱼还在网兜里，捞起一看赶紧放生"));
         reverse(list);
-//        for (int i = list.size()-1; i >= 0; i--){
-//            News news = list.get(i);
-//            if (news.getTitle() != null && news.getTitle().length() > 15){
-//                news.setTitle(news.getTitle().substring(0, 15) + "...");
-//            }
-//            System.out.println(news);
-//        }
+        for (int i = list.size()-1; i >= 0; i--){
+            News news = list.get(i);
+            if (news.getTitle() != null && news.getTitle().length() > 15){
+                news.setTitle(news.getTitle().substring(0, 15) + "...");
+            }
+            System.out.println(news);
+        }
         System.out.println(list);
 
     }

@@ -29,7 +29,7 @@ public class HomeWork01 {
 //            ch[i] = ch[j];
 //            ch[j] = temp;
 //        }
-        for (int i = 0; i < (end - start + 1) / 2; i++) {
+        for (int i = 0; i < (end - start + 1) >> 1; i++) {
             temp = ch[start + i];
             ch[start + i] = ch[end - i];
             ch[end - i] = temp;

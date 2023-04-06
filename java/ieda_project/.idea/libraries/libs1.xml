@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/day32-01-JDBC/libs/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day32-01-JDBC/libs/commons-dbutils-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day32-01-JDBC/libs/mchange-commons-java-0.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day32-01-JDBC/libs/mysql-connector-j-8.0.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day32-01-JDBC/libs/druid-1.2.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

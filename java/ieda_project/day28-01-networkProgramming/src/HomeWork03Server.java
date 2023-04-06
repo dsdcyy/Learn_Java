@@ -16,14 +16,14 @@ public class HomeWork03Server {
         BufferedInputStream bis = new BufferedInputStream(socket.getInputStream());
         byte[] buf = new byte[1024];
         int len = 0;
-        String musicName = "";
+        StringBuilder musicName = new StringBuilder();
         while ((len = bis.read(buf)) != -1) {
-            musicName += new String(buf, 0, len);
+            musicName.append(new String(buf, 0, len));
         }
         System.out.println("Music: " + musicName);
         socket.shutdownInput();
         String music = "";
-        if ("甜甜圈".equals(musicName)) {
+        if ("甜甜圈".equals(musicName.toString())) {
             music = "/home/Ljw/Desktop/java/ieda_project/day28-01-networkProgramming/src/甜甜圈.mp3";
             System.out.println("下载甜甜圈...");
         } else {

@@ -10,5 +10,7 @@ public class StringExercise08 {
         System.out.println(c);
         String d = "abchello";
         System.out.println(c == d);
+        System.out.println(c.hashCode() + "  " + d.hashCode());
+        System.out.println(a==a);
     }
 }

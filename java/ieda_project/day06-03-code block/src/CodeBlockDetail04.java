@@ -11,13 +11,13 @@ class A02{
 
     public A02() {
         System.out.println("A02的构造器...");
-    }
+    } //4
 
     {
-        System.out.println("A02的普通代码块被执行...");
+        System.out.println("A02的普通代码块被执行..."); //3
     }
     static {
-        System.out.println("A02的静态代码块被执行...");
+        System.out.println("A02的静态代码块被执行..."); //1
     }
 }
 class B02 extends A02{
@@ -25,13 +25,13 @@ class B02 extends A02{
     static int age;
 
     public B02() {
-        System.out.println("B02的构造器...");
+        System.out.println("B02的构造器..."); //6
 
     }
     {
-        System.out.println("B02的普通代码块被执行...");
+        System.out.println("B02的普通代码块被执行..."); // 5
     }
     static {
-        System.out.println("B02的静态代码块被执行...");
+        System.out.println("B02的静态代码块被执行..."); //2
     }
 }

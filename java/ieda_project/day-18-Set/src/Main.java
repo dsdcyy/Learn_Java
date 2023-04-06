@@ -201,7 +201,7 @@ public class Main {
         * public HashSet(){
         *   map = new HashMap<>();
         * }
-        * 3.可以存放nul值，但是只能有一个nul
+        * 3.可以存放nul值，但是只能有一个null
         * 4.HashSet不保证元素是有序的，取决于hash后，再确定索引的结果
         * 5.不能有重复元素/对象.在前面Set接口使用已经讲过
         * */

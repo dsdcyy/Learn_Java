@@ -30,7 +30,7 @@ public class UDPReceiverA {
         // 准备字节数组 不能大于64kb
         byte[] buf2 = "UDPReceiverA: 好的，明天见...".getBytes();
         // DatagramPacket类包装数据并指定发送地址和端口号
-        DatagramPacket datagramPacket1 = new DatagramPacket(buf2, buf2.length, InetAddress.getByName("192.168.0.105"), 10000);
+        DatagramPacket datagramPacket1 = new DatagramPacket(buf2, buf2.length, InetAddress.getByName("127.0.0.1"), 10000);
         // 回复消息
         datagramSocket.send(datagramPacket1);
         // 关闭资源

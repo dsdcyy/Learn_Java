@@ -25,7 +25,7 @@ public class UserClientService {
         // 连接到服务器,发送u对象
         Socket socket = null;
         try {
-            socket = new Socket(InetAddress.getByName("192.168.0.105"), 9999);
+            socket = new Socket(InetAddress.getByName("127.0.0.1"), 9999);
         } catch (IOException e) {
             System.out.println("无法连接服务器，请重试");
             return false;
@@ -43,7 +43,6 @@ public class UserClientService {
             socket.close();
             return false;
         }
-        System.out.println("登入成功...");
         ClientConnectServerThread ccst = new ClientConnectServerThread(socket);
         // 加入到管理连接的线程类
         if (!MangerClientConnectServerThread.add(userId, ccst)){
@@ -51,6 +50,7 @@ public class UserClientService {
             socket.close();
             return false;
         }
+        System.out.println("登入成功...");
         // 启动客户端线程
         ccst.start();
 

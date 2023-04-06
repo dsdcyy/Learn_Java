@@ -55,7 +55,6 @@ class SingletonLazyMan {
     public static SingletonLazyMan getCat() {
         if (cat == null) {
             cat = new SingletonLazyMan("小可爱");
-
         }
         return cat;
     }

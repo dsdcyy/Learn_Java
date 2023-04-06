@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/D23_2_12lambda_/D23_2_12lambda_.iml" filepath="$PROJECT_DIR$/D23_2_12lambda_/D23_2_12lambda_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HorseCollapseChessboard/HorseCollapseChessboard.iml" filepath="$PROJECT_DIR$/HorseCollapseChessboard/HorseCollapseChessboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Option/Option.iml" filepath="$PROJECT_DIR$/Option/Option.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OptionalClass_23_2_15/OptionalClass_23_2_15.iml" filepath="$PROJECT_DIR$/OptionalClass_23_2_15/OptionalClass_23_2_15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StreamAPI_23_2_14/StreamAPI_23_2_14.iml" filepath="$PROJECT_DIR$/StreamAPI_23_2_14/StreamAPI_23_2_14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-18-Set/day-18-Set.iml" filepath="$PROJECT_DIR$/day-18-Set/day-18-Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-20-01-TreeMap/day-20-01-TreeMap.iml" filepath="$PROJECT_DIR$/day-20-01-TreeMap/day-20-01-TreeMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-23-1-31-SingletonPattern-six/day-23-1-31-SingletonPattern-six.iml" filepath="$PROJECT_DIR$/day-23-1-31-SingletonPattern-six/day-23-1-31-SingletonPattern-six.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-05-ObjectOrientedThreeCharacteristics/day01-05-ObjectOrientedThreeCharacteristics.iml" filepath="$PROJECT_DIR$/day01-05-ObjectOrientedThreeCharacteristics/day01-05-ObjectOrientedThreeCharacteristics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-2/day01-2.iml" filepath="$PROJECT_DIR$/day01-2/day01-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-3-package/day01-3-package.iml" filepath="$PROJECT_DIR$/day01-3-package/day01-3-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-4-access_modifier/day01-4-access_modifier.iml" filepath="$PROJECT_DIR$/day01-4-access_modifier/day01-4-access_modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-01-operatorDetailEquals/day03-01-operatorDetailEquals.iml" filepath="$PROJECT_DIR$/day03-01-operatorDetailEquals/day03-01-operatorDetailEquals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-02-BreakpointDebugging/day03-02-BreakpointDebugging.iml" filepath="$PROJECT_DIR$/day03-02-BreakpointDebugging/day03-02-BreakpointDebugging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-03-Project-LingQianTong/day03-03-Project-LingQianTong.iml" filepath="$PROJECT_DIR$/day03-03-Project-LingQianTong/day03-03-Project-LingQianTong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-01-ObjectOrientedExercise/day04-01-ObjectOrientedExercise.iml" filepath="$PROJECT_DIR$/day04-01-ObjectOrientedExercise/day04-01-ObjectOrientedExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-01-HouseRentalSystem/day05-01-HouseRentalSystem.iml" filepath="$PROJECT_DIR$/day05-01-HouseRentalSystem/day05-01-HouseRentalSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-02-classVariables/day05-02-classVariables.iml" filepath="$PROJECT_DIR$/day05-02-classVariables/day05-02-classVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-01-classMethod/day06-01-classMethod.iml" filepath="$PROJECT_DIR$/day06-01-classMethod/day06-01-classMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-02-MainMethod/day06-02-MainMethod.iml" filepath="$PROJECT_DIR$/day06-02-MainMethod/day06-02-MainMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-03-code block/day06-03-code block.iml" filepath="$PROJECT_DIR$/day06-03-code block/day06-03-code block.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-01-SingletonDesignPattern/day07-01-SingletonDesignPattern.iml" filepath="$PROJECT_DIR$/day07-01-SingletonDesignPattern/day07-01-SingletonDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-02-Final/day07-02-Final.iml" filepath="$PROJECT_DIR$/day07-02-Final/day07-02-Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-03-AbstractClass/day07-03-AbstractClass.iml" filepath="$PROJECT_DIR$/day07-03-AbstractClass/day07-03-AbstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-01-Interface/day08-01-Interface.iml" filepath="$PROJECT_DIR$/day08-01-Interface/day08-01-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-02-InnerClass/day08-02-InnerClass.iml" filepath="$PROJECT_DIR$/day08-02-InnerClass/day08-02-InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09-01-Enumerate/day09-01-Enumerate.iml" filepath="$PROJECT_DIR$/day09-01-Enumerate/day09-01-Enumerate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10-01-Annotation/day10-01-Annotation.iml" filepath="$PROJECT_DIR$/day10-01-Annotation/day10-01-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15-01-ExceptionHandling/day15-01-ExceptionHandling.iml" filepath="$PROJECT_DIR$/day15-01-ExceptionHandling/day15-01-ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16-01-Wrapper/day16-01-Wrapper.iml" filepath="$PROJECT_DIR$/day16-01-Wrapper/day16-01-Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16-02-String/day16-02-String.iml" filepath="$PROJECT_DIR$/day16-02-String/day16-02-String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-01-StringBuffer/day17-01-StringBuffer.iml" filepath="$PROJECT_DIR$/day17-01-StringBuffer/day17-01-StringBuffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-02-Math/day17-02-Math.iml" filepath="$PROJECT_DIR$/day17-02-Math/day17-02-Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-03-System/day17-03-System.iml" filepath="$PROJECT_DIR$/day17-03-System/day17-03-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-04-BiglntegerAndBigDecimal/day17-04-BiglntegerAndBigDecimal.iml" filepath="$PROJECT_DIR$/day17-04-BiglntegerAndBigDecimal/day17-04-BiglntegerAndBigDecimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-05-Date/day17-05-Date.iml" filepath="$PROJECT_DIR$/day17-05-Date/day17-05-Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day18-01-StringReverse/day18-01-StringReverse.iml" filepath="$PROJECT_DIR$/day18-01-StringReverse/day18-01-StringReverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19-01-Map/day19-01-Map.iml" filepath="$PROJECT_DIR$/day19-01-Map/day19-01-Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20-02-TreeMap/day20-02-TreeMap.iml" filepath="$PROJECT_DIR$/day20-02-TreeMap/day20-02-TreeMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20-03-Collections/day20-03-Collections.iml" filepath="$PROJECT_DIR$/day20-03-Collections/day20-03-Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20-04-SetHomeWork/day20-04-SetHomeWork.iml" filepath="$PROJECT_DIR$/day20-04-SetHomeWork/day20-04-SetHomeWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21-01-Generic/day21-01-Generic.iml" filepath="$PROJECT_DIR$/day21-01-Generic/day21-01-Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22-01-CoordinateSystem/day22-01-CoordinateSystem.iml" filepath="$PROJECT_DIR$/day22-01-CoordinateSystem/day22-01-CoordinateSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22-01-Program_Thread_Process/day22-01-Program_Thread_Process.iml" filepath="$PROJECT_DIR$/day22-01-Program_Thread_Process/day22-01-Program_Thread_Process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day24-01-TankGameApplyMultithreading/day24-01-TankGameApplyMultithreading.iml" filepath="$PROJECT_DIR$/day24-01-TankGameApplyMultithreading/day24-01-TankGameApplyMultithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day25-01-IOFlow/day25-01-IOFlow.iml" filepath="$PROJECT_DIR$/day25-01-IOFlow/day25-01-IOFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day26-01-TankGame05/day26-01-TankGame05.iml" filepath="$PROJECT_DIR$/day26-01-TankGame05/day26-01-TankGame05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day27-01-TankGame06/day27-01-TankGame06.iml" filepath="$PROJECT_DIR$/day27-01-TankGame06/day27-01-TankGame06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28-01-networkProgramming/day28-01-networkProgramming.iml" filepath="$PROJECT_DIR$/day28-01-networkProgramming/day28-01-networkProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day29-01-MultiUserCommunicationSystem/day29-01-MultiUserCommunicationSystem.iml" filepath="$PROJECT_DIR$/day29-01-MultiUserCommunicationSystem/day29-01-MultiUserCommunicationSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day30-01-Reflection/day30-01-Reflection.iml" filepath="$PROJECT_DIR$/day30-01-Reflection/day30-01-Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day31-01-JavaOperateMysql/day31-01-JavaOperateMysql.iml" filepath="$PROJECT_DIR$/day31-01-JavaOperateMysql/day31-01-JavaOperateMysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32-01-JDBC/day32-01-JDBC.iml" filepath="$PROJECT_DIR$/day32-01-JDBC/day32-01-JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day33-01-ManHanLou/day33-01-ManHanLou.iml" filepath="$PROJECT_DIR$/day33-01-ManHanLou/day33-01-ManHanLou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day34-01-RegularExpression/day34-01-RegularExpression.iml" filepath="$PROJECT_DIR$/day34-01-RegularExpression/day34-01-RegularExpression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ieda_project.iml" filepath="$PROJECT_DIR$/.idea/ieda_project.iml" />
+    </modules>
+  </component>
+</project>

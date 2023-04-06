@@ -1,0 +1,1 @@
+SELECT sum( money) from bill b ;
